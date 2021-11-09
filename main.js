@@ -26,7 +26,7 @@ Li= UL.querySelectorAll(".lista");
 for(let item of Li){
 item.addEventListener("click",()=>{
 item.classList.toggle("activo")
-item.innerHTML += `<div class="Boton"><i Id="star"class="fas fa-star"></i></i><i id="pen" class="fas fa-pencil-alt"></i></div>`
+item.innerHTML += `<div class="Boton"><i Id="star"class="far fa-star"></i></i><i id="pen" class="fas fa-pencil-alt"></i></div>`
 })}})
 document.getElementById("star").style.background ="#e50000";
 }
