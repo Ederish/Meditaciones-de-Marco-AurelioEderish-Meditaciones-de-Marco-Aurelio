@@ -26,9 +26,8 @@ Li= UL.querySelectorAll(".lista");
 for(let item of Li){
 item.addEventListener("click",()=>{
 item.classList.toggle("activo")
-item.innerHTML += `<div class="Boton"><i Id="star"class="far fa-star"></i></i><i id="pen" class="fas fa-pencil-alt"></i></div>`
-})}})
-document.getElementById("star").style.background ="#e50000";
-}
+item.innerHTML += `<div class="Boton"><i Id="star"class="far fa-star"></i><i id="pen" class="fas fa-pencil-alt"></i></div>`
+})}})}
 function Book(){window.location.href="index.html"}
+function star(){window.location.href="fav.html"}
 function note(){window.location.href="notes.html"}
